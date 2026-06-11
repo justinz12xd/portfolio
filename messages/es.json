@@ -1,0 +1,108 @@
+{
+  "Nav": {
+    "brand": "Justin Alejandro",
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "events": "Eventos",
+    "skills": "Skills",
+    "contact": "Contacto",
+    "switchToEs": "Cambiar a español",
+    "switchToEn": "Switch to English"
+  },
+  "Hero": {
+    "srTitle": "Justin Alejandro — Desarrollador Full Stack",
+    "title": "Hola, soy Justin",
+    "subtitle": "Desarrollador Full Stack",
+    "description": "Construyo productos web de punta a punta: APIs robustas, interfaces cuidadas y la arquitectura que las conecta. Trabajo principalmente con <tech>TypeScript</tech>, <tech>React</tech> y <tech>Node.js</tech>.",
+    "cta": "Ver proyectos"
+  },
+  "Whoami": {
+    "name": "Justin Alejandro",
+    "role": "Desarrollador Full Stack",
+    "location": "Manta, Ecuador",
+    "stack": "TypeScript, React, Next.js, Node.js",
+    "status": "Disponible para nuevos proyectos"
+  },
+  "About": {
+    "heading": "Quién soy",
+    "photoAlt": "Foto de Justin Alejandro",
+    "who": {
+      "title": "Quién soy",
+      "body": "Soy Justin, desarrollador full stack. Me apasiona aprender y crecer constantemente, y no me pongo límites a la hora de encarar nuevos retos técnicos."
+    },
+    "from": {
+      "title": "De dónde soy",
+      "body": "Vivo en Manta, Ecuador, y desde acá trabajo para clientes y proyectos sin fronteras."
+    },
+    "going": {
+      "title": "A dónde voy",
+      "body": "Mi meta es expandirme en el mercado laboral internacional de la programación: trabajar con equipos de cualquier parte del mundo, en América, Europa, Asia y más allá."
+    }
+  },
+  "Projects": {
+    "heading": "Proyectos destacados",
+    "subheading": "Algunos de los proyectos en los que estuve trabajando últimamente.",
+    "repo": "Código",
+    "demo": "Demo",
+    "featured": "Proyecto destacado",
+    "openProject": "Ver proyecto",
+    "demoUnavailable": "Uso privado",
+    "labels": {
+      "cms": "CMS administrable",
+      "institutional": "Sitio institucional",
+      "erp": "ERP interno",
+      "landing": "Landing page",
+      "live": "En producción"
+    },
+    "items": {
+      "constructora-gl-pro": {
+        "title": "Constructora GL Pro",
+        "description": "Sitio web corporativo para una constructora de viviendas modulares, con un CMS administrable para gestionar contenido y proyectos."
+      },
+      "crossworlds-connections": {
+        "title": "Crossworlds Connections",
+        "description": "Sitio institucional de una organización de misiones, con secciones de voluntariado, donaciones y programas comunitarios."
+      },
+      "erp-crossworld": {
+        "title": "ERP Crossworlds",
+        "description": "ERP interno para gestionar estudiantes, clases, asistencia, inscripciones y personal de los programas educativos de la organización."
+      },
+      "mariachi-el-rey-manta": {
+        "title": "Mariachi El Rey Manta",
+        "description": "Landing page para un grupo de mariachi, con información de shows en vivo y contacto directo para contrataciones."
+      },
+      "pacheco-landing": {
+        "title": "Pacheco Landing",
+        "description": "Landing page personal para un músico, presentando su trayectoria artística y galería de eventos."
+      }
+    }
+  },
+  "Skills": {
+    "heading": "Skills y experiencia",
+    "subheading": "Las tecnologías y herramientas que uso día a día.",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "tools": "Herramientas"
+    }
+  },
+  "Events": {
+    "heading": "Eventos",
+    "subheading": "PLACEHOLDER",
+    "hint": "Desplazate para ver",
+    "items": {
+      "event-1": { "title": "PLACEHOLDER Evento 1", "subtitle": "PLACEHOLDER fecha", "description": "PLACEHOLDER descripción" },
+      "event-2": { "title": "PLACEHOLDER Evento 2", "subtitle": "PLACEHOLDER fecha", "description": "PLACEHOLDER descripción" },
+      "event-3": { "title": "PLACEHOLDER Evento 3", "subtitle": "PLACEHOLDER fecha", "description": "PLACEHOLDER descripción" },
+      "event-4": { "title": "PLACEHOLDER Evento 4", "subtitle": "PLACEHOLDER fecha", "description": "PLACEHOLDER descripción" },
+      "event-5": { "title": "PLACEHOLDER Evento 5", "subtitle": "PLACEHOLDER fecha", "description": "PLACEHOLDER descripción" }
+    }
+  },
+  "Contact": {
+    "heading": "Hablemos",
+    "available": "Disponible para nuevos proyectos",
+    "subheading": "¿Tenés un proyecto en mente o querés charlar? Escribime.",
+    "emailCta": "Enviar un email",
+    "footer": "Hecho con Next.js y cult-ui."
+  }
+}
