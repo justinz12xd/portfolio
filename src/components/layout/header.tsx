@@ -4,12 +4,13 @@ import { useLocale, useTranslations } from "next-intl";
 import { usePathname, useRouter } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
 import { Button } from "@/components/ui/button";
+import { ThemeToggle } from "@/components/ui/theme-toggle";
 
 const navItems = [
   { href: "#sobre-mi", key: "about" } as const,
   { href: "#proyectos", key: "projects" } as const,
   { href: "#eventos", key: "events" } as const,
-  { href: "#skills", key: "skills" } as const,
+  { href: "#github", key: "github" } as const,
   { href: "#contacto", key: "contact" } as const,
 ];
 
@@ -42,16 +43,20 @@ export function Header() {
           ))}
         </nav>
 
-        <Button
-          aria-label={
-            otherLocale === "es" ? t("switchToEs") : t("switchToEn")
-          }
-          onClick={() => router.replace(pathname, { locale: otherLocale })}
-          size="sm"
-          variant="outline"
-        >
-          {otherLocale.toUpperCase()}
-        </Button>
+        <div className="flex items-center gap-2">
+          <ThemeToggle />
+
+          <Button
+            aria-label={
+              otherLocale === "es" ? t("switchToEs") : t("switchToEn")
+            }
+            onClick={() => router.replace(pathname, { locale: otherLocale })}
+            size="sm"
+            variant="outline"
+          >
+            {otherLocale.toUpperCase()}
+          </Button>
+        </div>
       </div>
     </header>
   );

@@ -4,17 +4,21 @@
     "about": "About",
     "projects": "Projects",
     "events": "Events",
-    "skills": "Skills",
+    "github": "GitHub",
     "contact": "Contact",
     "switchToEs": "Cambiar a español",
-    "switchToEn": "Switch to English"
+    "switchToEn": "Switch to English",
+    "toggleTheme": "Toggle theme"
   },
   "Hero": {
     "srTitle": "Justin Alejandro — Full Stack Developer",
     "title": "Hi, I'm Justin",
     "subtitle": "Full Stack Developer",
     "description": "I build end-to-end web products: solid APIs, polished interfaces, and the architecture that connects them. I mainly work with <tech>TypeScript</tech>, <tech>React</tech> and <tech>Node.js</tech>.",
-    "cta": "View projects"
+    "cta": "View projects",
+    "statsStackLabel": "Main stack",
+    "statsProjectsLabel": "Projects shipped",
+    "statsLocationLabel": "Location"
   },
   "Whoami": {
     "name": "Justin Alejandro",
@@ -96,6 +100,17 @@
       "event-3": { "title": "PLACEHOLDER Event 3", "subtitle": "PLACEHOLDER date", "description": "PLACEHOLDER description" },
       "event-4": { "title": "PLACEHOLDER Event 4", "subtitle": "PLACEHOLDER date", "description": "PLACEHOLDER description" },
       "event-5": { "title": "PLACEHOLDER Event 5", "subtitle": "PLACEHOLDER date", "description": "PLACEHOLDER description" }
+    }
+  },
+  "Github": {
+    "heading": "GitHub activity",
+    "subheading": "This is what my code looks like in motion, day after day.",
+    "viewProfile": "View profile",
+    "contributionsAlt": "Justin Alejandro's GitHub contribution graph",
+    "stats": {
+      "repos": "Repos",
+      "followers": "Followers",
+      "following": "Following"
     }
   },
   "Contact": {

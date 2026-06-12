@@ -51,7 +51,7 @@ export function CosmicButton<E extends "a" | "button" = "a">({
 
   const baseClassName = cn(
     "group/cosmic relative inline-flex min-h-11 min-w-11 items-center justify-center gap-3 rounded-[15px] p-[3px] transition-transform  ",
-    "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#adfa1b] focus-visible:ring-offset-2 focus-visible:ring-offset-white dark:focus-visible:ring-offset-[#0c0912]",
+    "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-white dark:focus-visible:ring-offset-[#0c0912]",
     className
   )
 
@@ -59,12 +59,12 @@ export function CosmicButton<E extends "a" | "button" = "a">({
     <>
       {/* Animated cosmic border - enlarges on hover */}
       <span className="absolute inset-0 overflow-hidden rounded-[15px] transition-all duration-300 ease-out group-hover/cosmic:inset-[-3px] group-hover/cosmic:rounded-[15px]">
-        <span className="absolute inset-[-200%] animate-cosmic-spin bg-[conic-gradient(from_0deg,#adfa1b,#c9ff63,#efffb7,#8cd413,#6f9f19,#92d61b,#adfa1b)] opacity-95" />
+        <span className="absolute inset-[-200%] animate-cosmic-spin bg-[conic-gradient(from_0deg,#34d399,#6ee7b7,#d1fae5,#059669,#047857,#10b981,#34d399)] opacity-95" />
       </span>
 
       {/* Noise/texture overlay on the border - enlarges on hover */}
       <span className="absolute inset-0 overflow-hidden rounded-[15px] opacity-45 mix-blend-soft-light transition-all duration-300 ease-out group-hover/cosmic:inset-[-3px] group-hover/cosmic:rounded-[15px] dark:opacity-60 dark:mix-blend-overlay">
-        <span className="absolute inset-[-200%] animate-cosmic-spin-slow bg-[conic-gradient(from_180deg,#efffb7_0%,transparent_30%,#adfa1b_50%,transparent_70%,#7fbf17_100%)]" />
+        <span className="absolute inset-[-200%] animate-cosmic-spin-slow bg-[conic-gradient(from_180deg,#d1fae5_0%,transparent_30%,#34d399_50%,transparent_70%,#059669_100%)]" />
       </span>
 
       {/* Theme-aware inner background */}
@@ -82,7 +82,7 @@ export function CosmicButton<E extends "a" | "button" = "a">({
     return (
       <a
         className={baseClassName}
-        href={href ?? "https://aisdkagents.com"}
+        href={href ?? "#"}
         rel={rel ?? "noopener noreferrer"}
         target={target ?? "_blank"}
         {...rest}

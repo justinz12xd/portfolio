@@ -115,7 +115,7 @@ function ProjectMetaBadges({
         className={cn(
           "rounded-md",
           project.demoUrl
-            ? "border-emerald-500/25 bg-emerald-500/10 text-emerald-600 dark:text-emerald-400"
+            ? "border-primary/25 bg-primary/10 text-primary"
             : "border-amber-500/25 bg-amber-500/10 text-amber-700 dark:text-amber-300"
         )}
         variant="outline"
@@ -149,13 +149,13 @@ function FeaturedProject({
         <div className="flex flex-col justify-between gap-8 p-5 sm:p-7 lg:p-8">
           <div>
             <div className="flex flex-wrap items-center gap-3">
-              <span className="font-mono text-xs font-medium tracking-[0.18em] text-muted-foreground uppercase">
+              <span className="font-mono text-xs font-medium tracking-[0.15em] text-muted-foreground uppercase">
                 {t("featured")}
               </span>
               <ProjectMetaBadges project={project} t={t} />
             </div>
 
-            <h3 className="mt-5 text-balance text-3xl font-semibold tracking-[-0.04em] sm:text-4xl">
+            <h3 className="mt-5 text-balance text-3xl font-semibold tracking-tight sm:text-4xl">
               {title}
             </h3>
             <p className="mt-4 max-w-xl text-pretty text-base leading-7 text-muted-foreground">
@@ -228,7 +228,7 @@ function ProjectCard({
 
         <div className="flex flex-1 flex-col p-4 sm:p-5">
           <ProjectMetaBadges project={project} t={t} />
-          <h3 className="mt-4 text-xl font-semibold tracking-[-0.03em]">
+          <h3 className="mt-4 text-xl font-semibold tracking-tight">
             {title}
           </h3>
           <p className="mt-2 text-sm leading-6 text-muted-foreground">

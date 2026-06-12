@@ -4,17 +4,21 @@
     "about": "Sobre mí",
     "projects": "Proyectos",
     "events": "Eventos",
-    "skills": "Skills",
+    "github": "GitHub",
     "contact": "Contacto",
     "switchToEs": "Cambiar a español",
-    "switchToEn": "Switch to English"
+    "switchToEn": "Switch to English",
+    "toggleTheme": "Cambiar tema"
   },
   "Hero": {
     "srTitle": "Justin Alejandro — Desarrollador Full Stack",
     "title": "Hola, soy Justin",
     "subtitle": "Desarrollador Full Stack",
     "description": "Construyo productos web de punta a punta: APIs robustas, interfaces cuidadas y la arquitectura que las conecta. Trabajo principalmente con <tech>TypeScript</tech>, <tech>React</tech> y <tech>Node.js</tech>.",
-    "cta": "Ver proyectos"
+    "cta": "Ver proyectos",
+    "statsStackLabel": "Stack principal",
+    "statsProjectsLabel": "Proyectos entregados",
+    "statsLocationLabel": "Ubicación"
   },
   "Whoami": {
     "name": "Justin Alejandro",
@@ -96,6 +100,17 @@
       "event-3": { "title": "PLACEHOLDER Evento 3", "subtitle": "PLACEHOLDER fecha", "description": "PLACEHOLDER descripción" },
       "event-4": { "title": "PLACEHOLDER Evento 4", "subtitle": "PLACEHOLDER fecha", "description": "PLACEHOLDER descripción" },
       "event-5": { "title": "PLACEHOLDER Evento 5", "subtitle": "PLACEHOLDER fecha", "description": "PLACEHOLDER descripción" }
+    }
+  },
+  "Github": {
+    "heading": "Actividad en GitHub",
+    "subheading": "Así se ve mi código en movimiento, día tras día.",
+    "viewProfile": "Ver perfil",
+    "contributionsAlt": "Gráfico de contribuciones de GitHub de Justin Alejandro",
+    "stats": {
+      "repos": "Repos",
+      "followers": "Seguidores",
+      "following": "Seguidos"
     }
   },
   "Contact": {
