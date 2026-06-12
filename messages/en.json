@@ -92,14 +92,24 @@
   },
   "Events": {
     "heading": "Events",
-    "subheading": "PLACEHOLDER",
+    "subheading": "Some of the events and special moments",
     "hint": "Scroll to see",
     "items": {
-      "event-1": { "title": "PLACEHOLDER Event 1", "subtitle": "PLACEHOLDER date", "description": "PLACEHOLDER description" },
-      "event-2": { "title": "PLACEHOLDER Event 2", "subtitle": "PLACEHOLDER date", "description": "PLACEHOLDER description" },
-      "event-3": { "title": "PLACEHOLDER Event 3", "subtitle": "PLACEHOLDER date", "description": "PLACEHOLDER description" },
-      "event-4": { "title": "PLACEHOLDER Event 4", "subtitle": "PLACEHOLDER date", "description": "PLACEHOLDER description" },
-      "event-5": { "title": "PLACEHOLDER Event 5", "subtitle": "PLACEHOLDER date", "description": "PLACEHOLDER description" }
+      "event-1": { "title": "Event 1", "subtitle": "Date", "description": "Event description" },
+      "event-2": { "title": "Event 2", "subtitle": "Date", "description": "Event description" },
+      "event-3": { "title": "Event 3", "subtitle": "Date", "description": "Event description" },
+      "event-4": { "title": "Event 4", "subtitle": "Date", "description": "Event description" },
+      "event-5": { "title": "Event 5", "subtitle": "Date", "description": "Event description" },
+      "event-6": { "title": "Event 6", "subtitle": "Date", "description": "Event description" },
+      "event-7": { "title": "Event 7", "subtitle": "Date", "description": "Event description" },
+      "event-8": { "title": "Event 8", "subtitle": "Date", "description": "Event description" },
+      "event-9": { "title": "Event 9", "subtitle": "Date", "description": "Event description" },
+      "event-10": { "title": "Event 10", "subtitle": "Date", "description": "Event description" },
+      "event-11": { "title": "Event 11", "subtitle": "Date", "description": "Event description" },
+      "event-12": { "title": "Event 12", "subtitle": "Date", "description": "Event description" },
+      "event-13": { "title": "Event 13", "subtitle": "Date", "description": "Event description" },
+      "event-14": { "title": "Event 14", "subtitle": "Date", "description": "Event description" },
+      "event-15": { "title": "Event 15", "subtitle": "Date", "description": "Event description" }
     }
   },
   "Github": {

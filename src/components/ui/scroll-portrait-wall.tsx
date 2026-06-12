@@ -95,7 +95,7 @@ export function ScrollPortraitWall({
   subheading,
   hint,
   items,
-  columns = 4,
+  columns = 5,
   className,
 }: ScrollPortraitWallProps) {
   const root = React.useRef<HTMLElement | null>(null);
@@ -148,7 +148,7 @@ export function ScrollPortraitWall({
           .fromTo(
             el,
             { scale: 0 },
-            { scale: 1, ease: "power2.out", duration: 0.5 },
+            { scale: 0.8, ease: "power2.out", duration: 0.5 },
           )
           .to(el, { scale: 0, ease: "power2.in", duration: 0.5 });
       });
