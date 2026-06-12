@@ -84,11 +84,13 @@ const GradientHeading = React.forwardRef<HTMLHeadingElement, HeadingProps>(
         autoplay: onScroll({
           target: heading,
           enter: "bottom-=10% top",
-          once: true,
+          repeat: false,
         }),
       })
 
-      return () => animation.revert()
+      return () => {
+        animation.revert()
+      }
     }, [])
 
     return (
